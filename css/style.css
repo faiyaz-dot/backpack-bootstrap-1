@@ -14,7 +14,8 @@ header h1{
     border: none;
     padding: .8rem 2rem;
 }
-@media (max-width:992px){
+
+@media (max-width:576px){
 
     .penguin-head-step,
     .btn,
@@ -22,9 +23,35 @@ header h1{
         flex-direction: column;
     }
 }
-@media (max-width:668px){
-    
-    .penguin-head-step {
+@media (max-width:768px){
+    *{
+        text-align: center;
+    }
+    .btn{
+        width: 180px;
+        margin: 0 auto;
+        padding: .8rem 0;
+    }
+    .penguin-head-step img{
+        display: none;
+    }
+    .penguin-head-step{
+        flex-direction: column;
+    }
+    .penguin-single-step{
+        flex-direction: column;
+    }
+    .penguin-flex{
+        display: flex;
+        justify-content: center;
         flex-direction: column;
     }
 }
+@media (max-width:992px){
+
+    .penguin-head-step,
+    .btn,
+    .penguin-card-footer{
+        flex-direction: column;
+    }
+    
