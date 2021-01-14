@@ -1,0 +1,30 @@
+*{
+    color: #09015f;
+}
+header h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.btn img{
+    width: 20px;
+}
+.btn{
+    background-color: #09015f;
+    color: white;
+    border: none;
+    padding: .8rem 2rem;
+}
+@media (max-width:992px){
+
+    .penguin-head-step,
+    .btn,
+    .penguin-card-footer{
+        flex-direction: column;
+    }
+}
+@media (max-width:668px){
+    
+    .penguin-head-step {
+        flex-direction: column;
+    }
+}
